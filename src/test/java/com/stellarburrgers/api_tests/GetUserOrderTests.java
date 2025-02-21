@@ -9,7 +9,6 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
-import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 import java.util.UUID;
@@ -86,7 +85,7 @@ public class GetUserOrderTests {
 
         // Логируем информацию о получении заказов
         System.out.println("Получение заказов: " + orderResponse);
-        assertEquals(true, success);
+        assertTrue(success);
     }
 
     @Step("Получение заказов пользователя без авторизации")
@@ -108,6 +107,6 @@ public class GetUserOrderTests {
 
         // Логируем информацию о получении заказов
         System.out.println("Получение заказов: " + orderResponse);
-        assertEquals(false, success);
+        assertTrue(!success);
     }
 }

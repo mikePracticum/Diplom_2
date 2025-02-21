@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0958ad11-4e30-4f5b-acdc-abe86753d3ed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/stellarburrgers/api_tests/CreateOrderTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/stellarburrgers/api_tests/GetUserOrderTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/stellarburrgers/api_tests/UserCreationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/stellarburrgers/api_tests/UserLoginTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/stellarburrgers/api_tests/UserUpdateTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stellarburrgers/api_tests/CreateOrderTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stellarburrgers/api_tests/CreateOrderTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stellarburrgers/api_tests/GetUserOrderTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stellarburrgers/api_tests/GetUserOrderTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stellarburrgers/api_tests/UserCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stellarburrgers/api_tests/UserCreationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stellarburrgers/api_tests/UserUpdateTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stellarburrgers/api_tests/UserUpdateTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mikePracticum&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:mikePracticum/Diplom_2.git&quot;,
+    &quot;accountId&quot;: &quot;ce106aac-718c-4d86-8461-2d45f74982b3&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -53,6 +57,8 @@
     "JUnit.CreateOrderTest.testCreateOrder.executor": "Run",
     "JUnit.CreateOrderTests.executor": "Run",
     "JUnit.GetUserOrderTests.executor": "Run",
+    "JUnit.GetUserOrderTests.getUserOrders.executor": "Run",
+    "JUnit.GetUserOrderTests.getUserOrdersWithoutAuth.executor": "Run",
     "JUnit.LoginTest.executor": "Run",
     "JUnit.OrderRetrievalTests.executor": "Run",
     "JUnit.OrderTests.executor": "Run",
@@ -66,8 +72,9 @@
     "Maven.mesto-api-tests [test].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "develop2",
+    "git-widget-placeholder": "#4 on develop2",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/mihailkrikun/projects/Диплом_Михаил_Крикун_41/Diplom/Diplom_2",
     "onboarding.tips.debug.path": "/Users/mihailkrikun/projects/Diplom/Diplom_2/src/main/java/org/example/Main.java"
   }
 }]]></component>
@@ -109,8 +116,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateOrderTests.CreateOrderWithAuthWithoutIngredients" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Diplom_2" />
+    <configuration name="GetUserOrderTests.getUserOrders" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mesto-api-tests" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.stellarburrgers.api_tests.*" />
@@ -118,15 +125,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.stellarburrgers.api_tests" />
-      <option name="MAIN_CLASS_NAME" value="com.stellarburrgers.api_tests.CreateOrderTests" />
-      <option name="METHOD_NAME" value="CreateOrderWithAuthWithoutIngredients" />
+      <option name="MAIN_CLASS_NAME" value="com.stellarburrgers.api_tests.GetUserOrderTests" />
+      <option name="METHOD_NAME" value="getUserOrders" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateOrderTests.CreateOrderWithoutAuthWithIngredients" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Diplom_2" />
+    <configuration name="GetUserOrderTests.getUserOrdersWithoutAuth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mesto-api-tests" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.stellarburrgers.api_tests.*" />
@@ -134,8 +141,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.stellarburrgers.api_tests" />
-      <option name="MAIN_CLASS_NAME" value="com.stellarburrgers.api_tests.CreateOrderTests" />
-      <option name="METHOD_NAME" value="CreateOrderWithoutAuthWithIngredients" />
+      <option name="MAIN_CLASS_NAME" value="com.stellarburrgers.api_tests.GetUserOrderTests" />
+      <option name="METHOD_NAME" value="getUserOrdersWithoutAuth" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -159,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GetUserOrderTests.getUserOrdersWithoutAuth" />
+        <item itemvalue="JUnit.GetUserOrderTests.getUserOrders" />
         <item itemvalue="JUnit.UserCreationTests.createUniqueUser" />
         <item itemvalue="JUnit.CreateOrderTests" />
         <item itemvalue="JUnit.CreateOrderTests.CreateOrderWithAuthWithWrongIngredients" />
-        <item itemvalue="JUnit.CreateOrderTests.CreateOrderWithAuthWithoutIngredients" />
-        <item itemvalue="JUnit.CreateOrderTests.CreateOrderWithoutAuthWithIngredients" />
       </list>
     </recent_temporary>
   </component>

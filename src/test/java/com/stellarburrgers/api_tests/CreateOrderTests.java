@@ -9,7 +9,6 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
-import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 import java.util.UUID;
@@ -21,7 +20,6 @@ public class CreateOrderTests {
     private String authToken;
     private String testEmail;
     private String testName = "New Username21";
-    private String userId;
 
     @Before
     @Step("Создание тестового пользователя для заказа")

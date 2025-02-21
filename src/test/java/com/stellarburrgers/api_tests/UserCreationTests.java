@@ -1,6 +1,5 @@
 package com.stellarburrgers.api_tests;
 
-import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.junit.After;
@@ -9,8 +8,6 @@ import org.junit.Test;
 import io.qameta.allure.Step;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import java.net.URI;
 import java.util.UUID;
 
 import static io.restassured.RestAssured.given;
@@ -18,13 +15,10 @@ import static org.hamcrest.Matchers.equalTo;
 import static org.junit.Assert.assertTrue;
 
 public class UserCreationTests {
-
-    //private static final String BASE_URL = "https://stellarburgers.nomoreparties.site/api/auth/";
     private static final String USER_URL = "https://stellarburgers.nomoreparties.site/api/auth/user";
     private static final String REGISTER_URL = "https://stellarburgers.nomoreparties.site/api/auth/register";
     private String email;
     private String authToken;
-    private String userId;
     private String name = "New Username21";
     private static final Logger logger = LoggerFactory.getLogger(UserCreationTests.class);
 
@@ -50,7 +44,6 @@ public class UserCreationTests {
 
         // Логируем токен и ID пользователя
         logger.info("Токен авторизации получен: {}", authToken);
-        logger.info("ID пользователя получен: {}", userId);
     }
 
     @After

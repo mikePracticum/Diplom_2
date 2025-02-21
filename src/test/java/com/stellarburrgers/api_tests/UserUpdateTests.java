@@ -8,8 +8,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 import java.util.UUID;
 
@@ -17,7 +16,6 @@ public class UserUpdateTests {
     private final String BASE_URL = "https://stellarburgers.nomoreparties.site/api/auth/user";
     private String authToken;
     private String testEmail;
-    private String testName = "New Username21";
 
     @Before
     @Step("Создание тестового пользователя для обновления")
@@ -74,7 +72,7 @@ public class UserUpdateTests {
                 .extract()
                 .response();
 
-        assertEquals(true, response.jsonPath().getBoolean("success"));
+        assertTrue(response.jsonPath().getBoolean("success"));
         assertEquals(newEmail, response.jsonPath().getString("user.email"));
     }
 
@@ -96,7 +94,7 @@ public class UserUpdateTests {
                 .extract()
                 .response();
 
-        assertEquals(true, response.jsonPath().getBoolean("success"));
+        assertTrue(response.jsonPath().getBoolean("success"));
         assertEquals(newName, response.jsonPath().getString("user.name"));
     }
 
@@ -117,7 +115,7 @@ public class UserUpdateTests {
                 .extract()
                 .response();
 
-        assertEquals(false, response.jsonPath().getBoolean("success")); // Проверка успешности
+        assertFalse(response.jsonPath().getBoolean("success")); // Проверка успешности
         assertEquals("You should be authorised", response.jsonPath().getString("message")); // Проверка сообщения об ошибке
     }
 
@@ -138,7 +136,7 @@ public class UserUpdateTests {
                 .extract()
                 .response();
 
-        assertEquals(false, response.jsonPath().getBoolean("success")); // Проверка успешности
+        assertFalse(response.jsonPath().getBoolean("success")); // Проверка успешности
         assertEquals("You should be authorised", response.jsonPath().getString("message")); // Проверка сообщения об ошибке
     }
 }
