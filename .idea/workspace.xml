@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0958ad11-4e30-4f5b-acdc-abe86753d3ed" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stellarburrgers/api_tests/CreateOrderTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stellarburrgers/api_tests/CreateOrderTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stellarburrgers/api_tests/GetUserOrderTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stellarburrgers/api_tests/GetUserOrderTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stellarburrgers/api_tests/UserCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stellarburrgers/api_tests/UserCreationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stellarburrgers/api_tests/UserUpdateTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stellarburrgers/api_tests/UserUpdateTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mikePracticum&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:mikePracticum/Diplom_2.git&quot;,
+    &quot;accountId&quot;: &quot;ce106aac-718c-4d86-8461-2d45f74982b3&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2rirggp4SYMmhBg1F4X2iYlbn5z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.OrderTests.executor": "Run",
+    "JUnit.CreateOrderTest.CreateOrderWithAuthWithWrongIngredients.executor": "Run",
+    "JUnit.CreateOrderTest.CreateOrderWithAuthWithoutIngredients.executor": "Run",
+    "JUnit.CreateOrderTest.CreateOrderWithoutAuthWithIngredients.executor": "Run",
+    "JUnit.CreateOrderTest.executor": "Run",
+    "JUnit.CreateOrderTest.testCreateOrder.executor": "Run",
+    "JUnit.CreateOrderTests.executor": "Run",
+    "JUnit.GetUserOrderTests.executor": "Run",
+    "JUnit.GetUserOrderTests.getUserOrders.executor": "Run",
+    "JUnit.GetUserOrderTests.getUserOrdersWithoutAuth.executor": "Run",
+    "JUnit.LoginTest.executor": "Run",
+    "JUnit.OrderRetrievalTests.executor": "Run",
+    "JUnit.OrderTests.executor": "Run",
+    "JUnit.UserCreationTests.createUniqueUser.executor": "Run",
+    "JUnit.UserCreationTests.createUser.executor": "Run",
+    "JUnit.UserCreationTests.createUserWithMissingFields.executor": "Run",
+    "JUnit.UserCreationTests.executor": "Run",
+    "JUnit.UserLoginTests.executor": "Run",
+    "JUnit.UserUpdateTests.executor": "Run",
+    "Maven.mesto-api-tests [allure:serve].executor": "Run",
+    "Maven.mesto-api-tests [test].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "#4 on develop2",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/mihailkrikun/projects/Диплом_Михаил_Крикун_41/Diplom/Diplom_2",
+    "onboarding.tips.debug.path": "/Users/mihailkrikun/projects/Diplom/Diplom_2/src/main/java/org/example/Main.java"
+  }
+}]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn test" />
+      <command value="mvn allure:serve" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="CreateOrderTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stellarburrgers.api_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stellarburrgers.api_tests" />
+      <option name="MAIN_CLASS_NAME" value="com.stellarburrgers.api_tests.CreateOrderTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateOrderTests.CreateOrderWithAuthWithWrongIngredients" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stellarburrgers.api_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stellarburrgers.api_tests" />
+      <option name="MAIN_CLASS_NAME" value="com.stellarburrgers.api_tests.CreateOrderTests" />
+      <option name="METHOD_NAME" value="CreateOrderWithAuthWithWrongIngredients" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetUserOrderTests.getUserOrders" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mesto-api-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stellarburrgers.api_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stellarburrgers.api_tests" />
+      <option name="MAIN_CLASS_NAME" value="com.stellarburrgers.api_tests.GetUserOrderTests" />
+      <option name="METHOD_NAME" value="getUserOrders" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetUserOrderTests.getUserOrdersWithoutAuth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mesto-api-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stellarburrgers.api_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stellarburrgers.api_tests" />
+      <option name="MAIN_CLASS_NAME" value="com.stellarburrgers.api_tests.GetUserOrderTests" />
+      <option name="METHOD_NAME" value="getUserOrdersWithoutAuth" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserCreationTests.createUniqueUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stellarburrgers.api_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stellarburrgers.api_tests" />
+      <option name="MAIN_CLASS_NAME" value="com.stellarburrgers.api_tests.UserCreationTests" />
+      <option name="METHOD_NAME" value="createUniqueUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GetUserOrderTests.getUserOrdersWithoutAuth" />
+        <item itemvalue="JUnit.GetUserOrderTests.getUserOrders" />
+        <item itemvalue="JUnit.UserCreationTests.createUniqueUser" />
+        <item itemvalue="JUnit.CreateOrderTests" />
+        <item itemvalue="JUnit.CreateOrderTests.CreateOrderWithAuthWithWrongIngredients" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0958ad11-4e30-4f5b-acdc-abe86753d3ed" name="Changes" comment="" />
+      <created>1737052849820</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737052849820</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
